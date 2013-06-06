@@ -2,6 +2,9 @@
     "name": "bower-linkedin"
   , "description": "Async AMD bower component to load and use the LinkedIn JS SDK"
   , "version": "0.0.0"
+  , "scripts": {
+    "test": "grunt travis --verbose"
+  }
   , "devDependencies": {
       "grunt": ">= 0.4.1"
     , "bower": ">= 0.9.x"
