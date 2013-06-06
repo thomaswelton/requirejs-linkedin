@@ -16,7 +16,6 @@
 
   define(['EventEmitter', 'module'], function(EventEmitter, module) {
     var LinkedIn;
-
     LinkedIn = (function(_super) {
       __extends(LinkedIn, _super);
 
@@ -34,10 +33,8 @@
 
       LinkedIn.prototype.injectScript = function() {
         var _this = this;
-
         return requirejs(['LinkedInSrc'], function(IN) {
           var initFuncName;
-
           initFuncName = 'onLinkedInInit' + (new Date().getTime());
           window[initFuncName] = function() {
             _this.IN = IN;
@@ -53,7 +50,6 @@
 
       LinkedIn.prototype.onReady = function(callback) {
         var _this = this;
-
         if (callback == null) {
           callback = this.cb;
         }
@@ -77,7 +73,6 @@
 
       LinkedIn.prototype.share = function(params) {
         var _this = this;
-
         return this.onReady(function(IN) {
           return IN.UI.Share().params(params).place();
         });
