@@ -1,5 +1,5 @@
 {
-    "name": "bower-linkedin"
+    "name": "requirejs-linkedin"
   , "description": "Async AMD bower component to load and use the LinkedIn JS SDK"
   , "version": "0.0.0"
   , "scripts": {
@@ -10,7 +10,7 @@
   }
   , "repository": {
       "type": "git",
-      "url": "https://github.com/thomaswelton/bower-linkedin.git"
+      "url": "https://github.com/thomaswelton/requirejs-linkedin.git"
   }
   , "dependencies": {
       "bower": ">= 0.9.x"
