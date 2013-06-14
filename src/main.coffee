@@ -1,4 +1,4 @@
-require ['LinkedIn', 'mootools'], (LinkedIn) ->
+require ['LinkedIn'], (LinkedIn) ->
 	console.log 'main init'
 
 	document.body.addEvent 'click:relay(.linkedInShare)', (event) ->
