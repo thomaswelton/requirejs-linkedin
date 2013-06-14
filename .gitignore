@@ -1,7 +1,5 @@
 .DS_Store
 /node_modules/
-/*.sublime-project
-/*.sublime-workspace
 /components/
-/dist-src/
-/lib/
+/demo/components/
+/demo/*.js

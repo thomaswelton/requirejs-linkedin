@@ -3,11 +3,9 @@
   , "version": "0.0.0"
   , "main": "dist/LinkedIn.js"
   , "dependencies": {
-  	"EventEmitter" : "git://github.com/thomaswelton/bower-event-emitter.git"
-  }
-  , "devDependencies": {
-      "requirejs": "git://github.com/jrburke/requirejs"
-    , "requirejs-domready": "git://github.com/thomaswelton/domReady.git"
+        "EventEmitter" : "git://github.com/thomaswelton/bower-event-emitter.git"
+      , "requirejs": "git://github.com/jrburke/requirejs"
+      , "requirejs-domready": "git://github.com/thomaswelton/domReady.git"
   }
   , "ignore": [
       "**/.*"
